@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlok</title>
+</head>
+
+<body>
+    <h2> Filter arrays</h2>
+    <p id="danu1"></p>
+
+
+    <script>
+        let num = [124, 13, 5, 23];
+        let sum = num.reduce(myFunction, 120);
+        document.getElementById("danu1").innerHTML = sum;
+
+        function myFunction(total, value) {
+            return (total + value);
+        }
+
+    </script>
+</body>
+
+</html>
